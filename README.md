@@ -9,7 +9,7 @@
 -   Command list:
 
 ```
-(for now) These commands should be run without arguments. They are interactive
+These commands should be run without arguments. They are interactive
 download - Download an OTA from URL
 mount - Mount an OTA that has been downloaded
 unmount - Unmount currently-mounted OTA
@@ -19,6 +19,21 @@ OTA format example: 1.6.0.3331
 Targets: 0 = dev, 1 = whiskey, 2 = oskr, 3 = orange
 ```
 
--	This program is what will replace what is currently known as WireOS.
-
 ## Installation instructions :
+1. **Naviguez vers le répertoire du package :**
+   ```sh
+   cd /path/to/vector-ota-customize
+   ```
+
+2. **Exécutez le package avec :
+   ```sh
+   sudo go run .
+   ```
+
+3. **Construisez le binaire et exécutez-le :**
+   ```sh
+   go build -o vector-ota-customize
+   ./vector-ota-customize
+   ```
+
+Assurez-vous que vous avez configuré correctement votre environnement Go et que toutes les dépendances sont installées.
