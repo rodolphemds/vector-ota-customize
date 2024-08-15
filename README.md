@@ -1,5 +1,5 @@
-# wire-os
-
+# Vector OTA customize tool
+-    From Kercre123
 -	This is a Go program which will eventually be able to download any OTA, apply patches to it, and pack it to be able to download onto any target (production bots are not supported. only oskr/dev/whiskey).
 -   Current status: Functions for mounting, unmounting, downloading, packing, and patching are fully functional. Though, they are just held together with a debug shell program for now.
 -   Components:
@@ -21,8 +21,4 @@ Targets: 0 = dev, 1 = whiskey, 2 = oskr, 3 = orange
 
 -	This program is what will replace what is currently known as WireOS.
 
-## OTA links:
-
--	http://ota.global.anki-dev-services.com/vic/master-dev/lo8awreh23498sf/full/
--	https://ota-cdn.anki.com/vic/dev/werih2382df23ij/full/
--	https://assets.digitaldreamlabs.com/vic/ufxTn3XGcVNK2YrF/master/dev/vicos-
+## Installation instructions :
